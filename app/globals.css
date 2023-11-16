@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .logo{
-    width: 3%;
-    height: 3%;
+    width:7%;
+    
 }
 
 .img-1{
@@ -12,3 +12,14 @@
     width: 50%;
 
 }
+
+
+.hero-image {
+    background-image: url("/images/pageimages/woods-ring.webp"); 
+    background-color: #cccccc; 
+    height: 75vh; 
+    width: 100vw;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }

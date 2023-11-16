@@ -1,6 +1,5 @@
  import { getRings } from "@/lib/firebase/getRings"
 import { SinglejewelryCard } from "@/components/card/SinglejewelryCard"
-import { SingleEmployeeCard } from "@/components/card/SinglejewelryCard"
 import { NavBar } from "@/components/navigation/NavBar"
 
 
@@ -21,7 +20,7 @@ import { NavBar } from "@/components/navigation/NavBar"
     <header className=" justify-between"><NavBar></NavBar></header>
     <main className="flex min-h-screen flex-col  items-center">
       
-      <SingleEmployeeCard key={ring.ring_id} {...ring}></SingleEmployeeCard>
+      <SinglejewelryCard  key={ring.ring_id} {...ring}></SinglejewelryCard>
       </main>
   
      

@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import { Button } from '../button/Button'
 
-
-function SingleEmployeeCard ({ring_id, ...rings}){
+function SinglejewelryCard ({ring_id, ...rings}){
       const available = rings.ring_engravings
       let a = ''
        if (available == true){a = "Yes"}else{a = "No"};
@@ -30,7 +30,7 @@ function SingleEmployeeCard ({ring_id, ...rings}){
                      <li><span className='font-thin'>Gemstone Size: <span className='capitalize'>{rings.ring_stone_size}mm</span></span></li>
               </ul>
               </div>
-
+                     
               <div className='py-2 pl-4 border-b-4 border-indigo-100'>
               <ul className='list-disc text-sm'>
                      <li><span className='font-thin '>Material: <span className='capitalize'>{rings.ring_material}</span></span></li>
@@ -51,9 +51,9 @@ function SingleEmployeeCard ({ring_id, ...rings}){
                      
             </div>
 
-            <div className='justify-center flex p-6'>
-              <div className='w-2/5 text-center bg-blue-400 rounded-lg'>
-            <Link className='text-white font-semibold' href={`/employees`}>Buy Now</Link>
+            <div className='justify-center  flex p-6'>
+              <div className='  w-2/5 text-center bg-blue-400 rounded-lg'>
+           <button className='text-white font-semibold h-9'>Buy Now</button>
               </div>
               </div>
        </div>
@@ -63,6 +63,6 @@ function SingleEmployeeCard ({ring_id, ...rings}){
     )
   }
 
-  export {SingleEmployeeCard}
+  export {SinglejewelryCard}
 
   
