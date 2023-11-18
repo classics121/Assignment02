@@ -1,15 +1,13 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import { Button } from '../button/Button'
+
 
 function SinglejewelryCard ({ring_id, ...rings}){
       const available = rings.ring_engravings
       let a = ''
        if (available == true){a = "Yes"}else{a = "No"};
     return (
-       <div className="  bg-slate-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 shadow-md gap-10 p-4">
+       <div className=" w-screen bg-slate-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 shadow-md gap-10 p-4">
            
-            <img className='w-full h-full' src={rings.ring_image_url} alt="" />
+            <img className='h-full w-full' src={rings.ring_image_url} alt="Images of Rings" />
          
        <div>
 
@@ -61,6 +59,7 @@ function SinglejewelryCard ({ring_id, ...rings}){
   
            </div>
     )
+
   }
 
   export {SinglejewelryCard}

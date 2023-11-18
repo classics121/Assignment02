@@ -1,7 +1,7 @@
  import { getRings } from "@/lib/firebase/getRings"
 import { SinglejewelryCard } from "@/components/card/SinglejewelryCard"
 import { NavBar } from "@/components/navigation/NavBar"
-
+import { Footer } from "@/components/footer/footer"
 
  async function getRing(id){
   const payload = await getRings()
@@ -22,7 +22,7 @@ import { NavBar } from "@/components/navigation/NavBar"
       
       <SinglejewelryCard  key={ring.ring_id} {...ring}></SinglejewelryCard>
       </main>
-  
+  <Footer></Footer>
      
     </>
   );

@@ -23,3 +23,14 @@
     background-repeat: no-repeat;
     background-size: cover; 
   }
+
+
+  .collection-image {
+    background-image: url("../public/images/pageImages/more-then-one-ring.webp"); 
+    background-color: #cccccc; 
+    height: 30vh; 
+    width: 100vw;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
