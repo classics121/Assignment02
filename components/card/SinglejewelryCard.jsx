@@ -5,7 +5,7 @@ function SinglejewelryCard ({ring_id, ...rings}){
       let a = ''
        if (available == true){a = "Yes"}else{a = "No"};
     return (
-       <div className=" w-screen bg-slate-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 shadow-md gap-10 p-4">
+       <div className=" w-screen bg-slate-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-10 p-4">
            
             <img className='h-full w-full' src={rings.ring_image_url} alt="Images of Rings" />
          

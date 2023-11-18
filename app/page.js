@@ -22,7 +22,7 @@ export default function Home() {
     Three={"Complimentary Gift Wrapping"}
     p3={"We'll make sure your purchase is gift ready with seasonal wrapping paper throughout the year."}
     Two={"Quality"}
-    p2={"We proudly trace 100% of our GemStones to known mines and sources"}>
+    p2={"We proudly trace 100% of our Gemstones to known where they came from"}>
     </TwoGridByThree>
     </div>
         <div className=' pt-3 pb-3'>
@@ -30,7 +30,7 @@ export default function Home() {
        informationOne={<img src="/images/pageImages/ring-in-flowers.webp" alt="Ring in Flower" width="100%" height="100%"></img>}
        informationTwo={<h3 className='font-bold text-3xl'>For the Moments that Matter the Most</h3>}
        informationTwoTwo={<p className='pb-2'>Discover our unique collections for those cherishable moments</p>}
-       informationTwoThree={<Link  className=' border-indigo-950 w-1/4 border-2 rounded-lg    font-semibold  justify-center flex' href={"/items/multiple-items"}><span className='p-2'>Collections</span></Link>}>
+       informationTwoThree={<div className=' p-4 justify-center  w-1/4  border-indigo-950 text-center border-2 flex rounded-lg'><Link   href={"/items/multiple-items"}>Collections</Link></div>}>
      </TwoFlipCard>
       </div>
        
