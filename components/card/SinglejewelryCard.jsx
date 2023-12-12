@@ -1,4 +1,4 @@
-
+import { CheckoutForm } from "../CheckoutForm/CheckoutForm"
 
 function SinglejewelryCard ({ring_id, ...rings}){
       const available = rings.ring_engravings
@@ -46,12 +46,13 @@ function SinglejewelryCard ({ring_id, ...rings}){
               <li><span className='font-thin'>Available:  {rings.ring_availability}</span></li>
               <li><span className='font-thin'>Price:  ${rings.ring_price}</span></li>
               </ul>
-                     
+              
+       
             </div>
 
             <div className='justify-center  flex p-6'>
               <div className='  w-2/5 text-center bg-blue-400 rounded-lg'>
-           <button className='text-white font-semibold h-9'>Buy Now</button>
+              <CheckoutForm  id={rings.ring_stripe} price={rings.Stripe_price}></CheckoutForm>
               </div>
               </div>
        </div>

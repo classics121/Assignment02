@@ -13,7 +13,7 @@ console.log(keys)
 return(
 <>
 <header className=" justify-between"><NavBar></NavBar></header>
-<main className="flex min-h-screen flex-col  items-center justify-between ">
+<main className="flex min-h-screen flex-col  items-center max-w-7xl mx-auto">
 <div className=" justify-center text-center shadow-2xl font-serif items-center flex mb-1 collection-image h-1/4 w-full">
 <PageHeader title={"Collection"} tagline={"Find the ring they will enjoy!!"}></PageHeader>
 </div>

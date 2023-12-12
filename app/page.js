@@ -30,7 +30,7 @@ export default function Home() {
        informationOne={<img src="/images/pageImages/ring-in-flowers.webp" alt="Ring in Flower" width="100%" height="100%"></img>}
        informationTwo={<h3 className='font-bold text-3xl'>For the Moments that Matter the Most</h3>}
        informationTwoTwo={<p className='pb-2'>Discover our unique collections for those cherishable moments</p>}
-       informationTwoThree={<div className=' p-4 justify-center  w-1/4  border-indigo-950 text-center border-2 flex rounded-lg'><Link   href={"/items/multiple-items"}>Collections</Link></div>}>
+       informationTwoThree={<div className=' p-2 justify-center  w-1/4 sm:w-1/2 md:w-1/2 border-indigo-950 text-center border-2 flex rounded-lg'><Link   href={"/items/multiple-items"}>Collections</Link></div>}>
      </TwoFlipCard>
       </div>
        

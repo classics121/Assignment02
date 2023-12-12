@@ -18,7 +18,7 @@ import { Footer } from "@/components/footer/footer"
   return (
     <>
     <header className=" justify-between"><NavBar></NavBar></header>
-    <main className="flex min-h-screen flex-col  items-center">
+    <main className="flex min-h-screen flex-col  items-center max-w-5xl mx-auto">
       
       <SinglejewelryCard  key={ring.ring_id} {...ring}></SinglejewelryCard>
       </main>
